@@ -1,0 +1,17 @@
+{
+    "DATA_PATH": "data/sample_ETo_dataset.xlsx",
+    "TARGET_COLUMN": "ETo",
+    "FEATURE_COLUMNS": [
+        "Tmax",
+        "Tmin",
+        "RH",
+        "Rs",
+        "u2_",
+        "VPD"
+    ],
+    "CV_SPLITS": 5,
+    "CV_REPEATS": 3,
+    "VIF_THRESHOLD": 5.0,
+    "RANDOM_STATE": 42,
+    "OUTPUT_PATH": "results/generated_results/"
+}
